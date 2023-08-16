@@ -1,0 +1,20 @@
+package defs
+
+VERSION :: "v1.0"
+
+WINDOW_WIDTH  : i32 : 1600
+WINDOW_HEIGHT : i32 : 800
+TARGET_FPS    : i32 : 60
+
+PAD_WIDTH  : i32 : 20
+PAD_HEIGHT : i32 : 140
+PAD_SPEED  : i32 : 10
+
+BALL_RADIUS : i32 : 20
+
+AI_REACTION_TIME : f32: 0.4
+AI_REACTION_DEVIATION : f32 : 0.3
+
+SCORE_TO_WIN : i32 : 5
+
+GameState :: enum { NONE, TITLE, GAME }
